@@ -1,0 +1,3 @@
+version=4
+opts=filenamemangle=s/.+\/(\d\S+)\.tar\.gz/ppx_derivers-$1\.tar\.gz/ \
+  https://github.com/ocaml-ppx/ppx_derivers/tags .*/(\d\S+)\.tar\.gz

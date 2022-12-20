@@ -1,0 +1,41 @@
+ppx-derivers (1.2.1-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:48:26 +0800
+
+ppx-derivers (1.2.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+  * Bump debhelper compat level to 12
+  * Bump Standards-Version to 4.4.0
+
+ -- Stéphane Glondu <glondu@debian.org>  Mon, 19 Aug 2019 13:24:49 +0200
+
+ppx-derivers (1.2-4) unstable; urgency=medium
+
+  * Add build-dependency opam, needed since jbuilder invokes opam-installer
+
+ -- Ralf Treinen <treinen@debian.org>  Tue, 10 Jul 2018 19:29:49 +0200
+
+ppx-derivers (1.2-3) unstable; urgency=medium
+
+  * d/rules: install using "jbuilder install"
+  * build-dependencies: jbuilder renamed to dune
+  * add libppx-derivers-ocaml-dev.docs to install README.md
+
+ -- Ralf Treinen <treinen@debian.org>  Tue, 10 Jul 2018 08:59:24 +0200
+
+ppx-derivers (1.2-2) unstable; urgency=medium
+
+  * Update Vcs-* to salsa
+  * Standards-Version : 4.1.5 (no change)
+
+ -- Ralf Treinen <treinen@debian.org>  Mon, 09 Jul 2018 23:25:55 +0200
+
+ppx-derivers (1.2-1) unstable; urgency=medium
+
+  * Initial package (closes: #878803)
+
+ -- Ralf Treinen <treinen@debian.org>  Mon, 05 Mar 2018 22:04:35 +0100

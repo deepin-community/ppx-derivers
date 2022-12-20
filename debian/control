@@ -1,0 +1,28 @@
+Source: ppx-derivers
+Section: ocaml
+Priority: optional
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders: Ralf Treinen <treinen@debian.org>
+Build-Depends:
+ debhelper-compat (= 12),
+ dh-ocaml,
+ ocaml-nox,
+ ocaml-dune
+Standards-Version: 4.4.0
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ppx-derivers
+Vcs-Git: https://salsa.debian.org/ocaml-team/ppx-derivers.git
+Homepage: https://github.com/diml/ppx_derivers
+
+Package: libppx-derivers-ocaml-dev
+Provides:
+ ${ocaml:Provides}
+Architecture: any
+Depends:
+ ${ocaml:Depends},
+ ${shlibs:Depends},
+ ${misc:Depends}
+Description: interoperability of ppx-deriving and ppx-type-conv
+ This package is useful when programming with ppx syntax extensions in
+ the OCaml programming language. Its purpose is to allow the ppx_deriving
+ and ppx_type_conv syntax extensions to interoperate gracefully when linked
+ as part of the same ocaml-migrate-parsetree driver.
