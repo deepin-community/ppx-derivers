@@ -5,7 +5,7 @@ Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
 Uploaders: Ralf Treinen <treinen@debian.org>
 Build-Depends:
  debhelper-compat (= 12),
- dh-ocaml,
+ dh-ocaml (>= 1.2),
  ocaml-nox,
  ocaml-dune
 Standards-Version: 4.4.0
